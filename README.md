@@ -7,7 +7,7 @@
 ---
 
 ## 📂 Project Structure
-Locksmith/
+'''Locksmith/
 ├── encryption_algorithms/
 │ ├── aes.py
 │ ├── chacha20.py
@@ -22,7 +22,7 @@ Locksmith/
 ├── main.py
 ├── requirements.txt
 ├── .gitignore
-└── README.md
+└── README.md'''
 
 ## 2. (Optional) Create a virtual environment <br>
 python -m venv .venv <br>
