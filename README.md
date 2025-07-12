@@ -31,6 +31,6 @@ source .venv/bin/activate      # On Windows: .venv\Scripts\activate
 ## 3. Install dependencies
 pip install -r requirements.txt
 
-## 4.Usage
+## 4. Usage
 Run the CLI tool:
 python main.py
