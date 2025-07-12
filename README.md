@@ -15,10 +15,10 @@ Locksmith/
 │ ├── ecc.py
 │ ├── rsa.py
 │ ├── sha256.py
-│ └── init.py
+│ └── __init__.py
 ├── utils/
 │ ├── file_handler.py
-│ └── init.py
+│ └── __init__.py
 ├── main.py
 ├── requirements.txt
 ├── .gitignore
