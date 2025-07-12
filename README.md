@@ -1,6 +1,6 @@
 # Locksmith - File Encryption CLI Tool
 
-**Locksmith** is a powerful and extensible command-line tool for encrypting files using multiple cryptographic algorithms. Built with simplicity and modularity in mind, it supports AES, RSA, DES, ChaCha20, ECC signing, and SHA-256 hashing.
+**Locksmith** is a command-line tool for encrypting files using multiple cryptographic algorithms. Built with simplicity and modularity in mind, it supports AES, RSA, DES, ChaCha20, ECC signing, and SHA-256 hashing.
 
 > ⚠️ **Disclaimer**: This tool only performs **encryption** or **signing**/**hashing**. Decryption, verification, or file restoration is **not implemented**. You’ll need a separate decryption/verification program.
 
