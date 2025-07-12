@@ -25,12 +25,12 @@ Locksmith/
 └── README.md
 
 ## 2. (Optional) Create a virtual environment
-python -m venv .venv
-source .venv/bin/activate      # On Windows: .venv\Scripts\activate
+- python -m venv .venv
+- source .venv/bin/activate      # On Windows: .venv\Scripts\activate
 
 ## 3. Install dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ## 4. Usage
-Run the CLI tool:
-python main.py
+- Run the CLI tool:
+- python main.py
