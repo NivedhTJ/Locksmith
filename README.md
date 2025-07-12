@@ -32,5 +32,5 @@ source .venv/bin/activate      # On Windows: .venv\Scripts\activate
 > pip install -r requirements.txt
 
 ## 4. Usage <br>
-> Run the CLI tool: <br>
-> python main.py
+Run the CLI tool: <br>
+python main.py
