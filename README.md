@@ -11,20 +11,20 @@
 ```
 Locksmith/
 ├── encryption_algorithms/
+│ ├── __init__.py
 │ ├── aes.py
 │ ├── chacha20.py
 │ ├── des.py
 │ ├── ecc.py
 │ ├── rsa.py
-│ ├── sha256.py
-│ └── __init__.py
+│ └── sha256.py
 ├── utils/
-│ ├── file_handler.py
-│ └── __init__.py
-├── main.py
-├── requirements.txt
+│ ├── __init__.py
+│ └── file_handler.py
 ├── .gitignore
-└── README.md
+├── main.py
+├── README.md
+└── requirements.txt
 ```
 
 ## 2. (Optional) Create a virtual environment <br>
@@ -37,3 +37,8 @@ pip install -r requirements.txt
 ## 4. Usage <br>
 Run the CLI tool: <br>
 python main.py
+
+## Output
+- Encrypted/Hashed/Signed files are saved in an output/ folder created automatically.
+
+- The original input file is never deleted or modified.

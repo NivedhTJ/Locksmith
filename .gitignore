@@ -1,0 +1,8 @@
+# Output and key files
+output/
+
+# Virtual environments
+.Locksmith/
+
+# VSCode settings
+.vscode/
