@@ -28,15 +28,24 @@ Locksmith/
 ```
 
 ## 2. (Optional) Create a virtual environment <br>
-python -m venv .venv <br>
-source .venv/bin/activate      ( On Windows: .venv\Scripts\activate )
+```bash
+python -m venv .venv
 
-## 3. Install dependencies <br>
+# Activate the environment
+source .venv/bin/activate # Linux/macOS
+.venv\Scripts\activate # windows cmd
+```
+
+## 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ## 4. Usage <br>
-Run the CLI tool: <br>
+``` bash
+# Run the CLI tool
 python main.py
+```
 
 ## Output
 - Encrypted/Hashed/Signed files are saved in an output/ folder created automatically.
